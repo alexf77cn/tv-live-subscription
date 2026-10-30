@@ -49,9 +49,9 @@
     "title": "CCTV-5+",
     "uris": [
       "http://107.150.60.122/live//cctv5p.m3u8",
+      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://120.76.248.139/live/bfgd/4200000246.m3u8",
-      "http://47.100.80.251:50001/641886773",
-      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "http://47.100.80.251:50001/641886773"
     ]
   },
   {
@@ -227,9 +227,9 @@
     "name": "河北卫视",
     "title": "河北卫视",
     "uris": [
-      "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
       "http://120.76.248.139/live/bfgd/4200000108.m3u8",
       "http://120.76.248.139/live/bfgd/4200000108.m3u8$IPV4•线路3",
+      "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
       "http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
@@ -393,10 +393,10 @@
     "title": "浙江卫视",
     "uris": [
       "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
-      "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
-      "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1",
       "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
-      "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3"
+      "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3",
+      "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
+      "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1"
     ]
   },
   {
