@@ -129,16 +129,18 @@ export async function mergeChannels({ seed, previous = seed, config, loadSource,
     } catch (error) { return { name: source.name, url: source.url, ok: false, error: error.message, entries: [] }; }
   }));
   if (!sources.some(source => source.ok)) throw new Error('All upstream sources failed; existing published files are unchanged');
+  const hasSourceFailure = sources.some(source => !source.ok);
   const jobs = [];
   const candidates = new Map();
   const upstreamUrls = new Map();
   for (const ch of targets) {
     const bySource = sources.filter(source => source.ok).map(source => unique(source.entries.filter(row => whitelist.get(canonicalName(row.name)) === ch.name).map(row => row.url)));
+    // Membership must use the complete upstream lists, independently of the probe budget.
+    upstreamUrls.set(ch.name, new Set(bySource.flat()));
     const roundRobin = [];
     for (let index = 0; index < config.maxProbesPerChannel; index++) for (const urls of bySource) if (urls[index]) roundRobin.push(urls[index]);
     // Probe new candidates before the seed, because the existing URLs remain as fallbacks regardless.
     const all = unique(roundRobin);
-    upstreamUrls.set(ch.name, new Set(all));
     const current = previous[seed.indexOf(ch)].uris[0];
     const picked = unique([current, ...all.filter(url => !ch.uris.includes(url)), ...all.filter(url => ch.uris.includes(url))]).slice(0, config.maxProbesPerChannel);
     candidates.set(ch.name, picked);
@@ -154,7 +156,8 @@ export async function mergeChannels({ seed, previous = seed, config, loadSource,
     const good = results.filter(row => row.name === ch.name && row.ok).map(row => row.url);
     const current = previous[index].uris[0];
     const currentPassed = good.includes(current);
-    const keepCurrentFirst = currentPassed && (upstreamUrls.get(ch.name).has(current) || ch.uris.includes(current));
+    // A missing/failed source cannot provide evidence that a healthy current URL was removed.
+    const keepCurrentFirst = currentPassed && (hasSourceFailure || upstreamUrls.get(ch.name).has(current) || ch.uris.includes(current));
     const goodUpstream = good.filter(url => upstreamUrls.get(ch.name).has(url));
     const next = goodUpstream.filter(url => !keepCurrentFirst || url !== current).slice(0, config.newUrisPerChannel);
     let uris;

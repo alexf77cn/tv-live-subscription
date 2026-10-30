@@ -34,14 +34,43 @@ test('CCTV-5 and 5+ aliases stay distinct; unknown program suffixes do not becom
   assert.notEqual(canonicalName('CCTV-5节目广告'), 'CCTV-5');
 });
 
-test('single-source failure keeps the other source and does not lose previous known URLs', async () => {
+test('single-source failure can replace a failed first choice without losing previous known URLs', async () => {
   const previous = structuredClone(seed);
   previous[0].uris.unshift('https://previous.example/cctv1.m3u8');
-  const result = await mergeChannels({ seed, previous, config, loadSource: async url => { if (url.includes('a.example')) throw new Error('unavailable'); return goodList; }, probe: passed });
+  const result = await mergeChannels({ seed, previous, config, loadSource: async url => { if (url.includes('a.example')) throw new Error('unavailable'); return goodList; }, probe: async url => ({ ok: !url.includes('previous.example') }) });
   assert.equal(result.report.sources.filter(source => source.ok).length, 1);
   assert.equal(result.channels[0].uris[0], 'https://fresh.example/cctv1.m3u8');
   assert(result.channels[0].uris.includes('https://previous.example/cctv1.m3u8'));
   assert(result.channels[0].uris.includes(seed[0].uris[0]));
+});
+
+test('a healthy current URL listed seventh upstream remains first without expanding the probe budget', async () => {
+  const current = 'https://previous.example/cctv1.m3u8';
+  const previous = structuredClone(seed);
+  previous[0].uris.unshift(current);
+  const longList = list([
+    ...Array.from({ length: 6 }, (_, index) => ['CCTV1', `https://candidate.example/cctv1-${index}.m3u8`]),
+    ['CCTV1', current],
+  ]);
+  const result = await mergeChannels({ seed, previous, config, loadSource: async url => url.includes('a.example') ? longList : goodList, probe: passed });
+  assert.equal(result.channels[0].uris[0], current);
+  assert.equal(result.report.channels[0].keptCurrentFirst, true);
+  assert.equal(result.report.channels[0].candidateCount, config.maxProbesPerChannel);
+  assert.equal(result.report.probes.filter(row => row.name === 'CCTV-1').length, config.maxProbesPerChannel);
+});
+
+test('one unavailable source does not imply that a healthy non-seed current URL was removed', async () => {
+  const current = 'https://previous.example/cctv1.m3u8';
+  const previous = structuredClone(seed);
+  previous[0].uris.unshift(current);
+  const result = await mergeChannels({ seed, previous, config, loadSource: async url => {
+    if (url.includes('a.example')) throw new Error('source temporarily unavailable');
+    return goodList;
+  }, probe: passed });
+  assert.equal(result.report.sources.filter(source => source.ok).length, 1);
+  assert.equal(result.channels[0].uris[0], current);
+  assert.equal(result.report.channels[0].keptCurrentFirst, true);
+  assert(result.channels[0].uris.includes('https://fresh.example/cctv1.m3u8'));
 });
 
 test('regional objects, including nested metadata and Phoenix loopback, remain byte-equivalent objects', async () => {
