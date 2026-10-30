@@ -1,0 +1,698 @@
+[
+  {
+    "group": "央视",
+    "name": "CCTV-1",
+    "title": "CCTV-1",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv1hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-2",
+    "title": "CCTV-2",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv2hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-3",
+    "title": "CCTV-3",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv3hd.m3u8",
+      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2",
+      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路5"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-4",
+    "title": "CCTV-4",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv4hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-5",
+    "title": "CCTV-5",
+    "uris": [
+      "http://107.150.60.122/live/cctv5hd.m3u8",
+      "http://gmxw.7766.org:808/hls/93/index.m3u8",
+      "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-5+",
+    "title": "CCTV-5+",
+    "uris": [
+      "http://107.150.60.122/live//cctv5p.m3u8",
+      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://120.76.248.139/live/bfgd/4200000246.m3u8",
+      "http://47.100.80.251:50001/641886773"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-6",
+    "title": "CCTV-6",
+    "uris": [
+      "http://69.30.245.50/live/cctv6.m3u8",
+      "http://198.204.240.250:82/live/cctv6.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-7",
+    "title": "CCTV-7",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv7hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-8",
+    "title": "CCTV-8",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv8hd.m3u8",
+      "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-9",
+    "title": "CCTV-9",
+    "uris": [
+      "https://xykt-fix.github.io/Y77.m3u8",
+      "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da11d4e7bde71b3ff91281d1f351b6dc"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-10",
+    "title": "CCTV-10",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv10hd.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-11",
+    "title": "CCTV-11",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv11hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-12",
+    "title": "CCTV-12",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv12hd.m3u8",
+      "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-13",
+    "title": "CCTV-13",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv13hd.m3u8",
+      "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+      "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$IPV4•线路2"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-14",
+    "title": "CCTV-14",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv14hd.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-15",
+    "title": "CCTV-15",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv15hd.m3u8",
+      "http://gmxw.7766.org:808/hls/102/index.m3u8"
+    ]
+  },
+  {
+    "group": "央视",
+    "name": "CCTV-17",
+    "title": "CCTV-17",
+    "uris": [
+      "http://74.91.26.218:82/live/cctv17hd.m3u8"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "安徽卫视",
+    "title": "安徽卫视",
+    "uris": [
+      "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
+      "http://gmxw.7766.org:808/hls/40/index.m3u8"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "兵团卫视",
+    "title": "兵团卫视",
+    "uris": [
+      "http://59.39.89.130:60901/tsfile/live/0125_9.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "重庆卫视",
+    "title": "重庆卫视",
+    "uris": [
+      "http://120.198.95.220:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "东方卫视",
+    "title": "东方卫视",
+    "uris": [
+      "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+      "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "http://120.198.95.220:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&down=1"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "东南卫视",
+    "title": "东南卫视",
+    "uris": [
+      "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "广东卫视",
+    "title": "广东卫视",
+    "uris": [
+      "http://101.66.194.29:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "广西卫视",
+    "title": "广西卫视",
+    "uris": [
+      "http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://120.198.95.220:9901/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&down=1"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "贵州卫视",
+    "title": "贵州卫视",
+    "uris": [
+      "http://101.66.198.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.234:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://36.136.38.87:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "河北卫视",
+    "title": "河北卫视",
+    "uris": [
+      "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
+      "http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "河南卫视",
+    "title": "河南卫视",
+    "uris": [
+      "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "黑龙江卫视",
+    "title": "黑龙江卫视",
+    "uris": [
+      "http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1",
+      "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "吉林卫视",
+    "title": "吉林卫视",
+    "uris": [
+      "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.18:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "江苏卫视",
+    "title": "江苏卫视",
+    "uris": [
+      "http://120.40.39.246:352/newlive/live/hls/31/live.m3u8",
+      "http://8.138.7.223/tv/jsws4k.php"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "江西卫视",
+    "title": "江西卫视",
+    "uris": [
+      "http://101.66.198.234:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://101.66.194.29:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "辽宁卫视",
+    "title": "辽宁卫视",
+    "uris": [
+      "http://120.198.95.220:9901/tsfile/live/1051_1.m3u8?key=txiptv&playlive=1&down=1",
+      "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "内蒙古卫视",
+    "title": "内蒙古卫视",
+    "uris": [
+      "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+      "http://59.39.89.130:60901/tsfile/live/0125_21.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "山东卫视",
+    "title": "山东卫视",
+    "uris": [
+      "http://101.66.198.234:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://120.198.95.220:9901/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&down=1"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "山西卫视",
+    "title": "山西卫视",
+    "uris": [
+      "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+      "http://101.66.194.176:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.18:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "陕西卫视",
+    "title": "陕西卫视",
+    "uris": [
+      "http://101.66.194.176:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.18:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.184:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "四川卫视",
+    "title": "四川卫视",
+    "uris": [
+      "http://120.198.95.220:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1",
+      "http://101.66.194.29:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "天津卫视",
+    "title": "天津卫视",
+    "uris": [
+      "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
+      "http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "西藏卫视",
+    "title": "西藏卫视",
+    "uris": [
+      "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "新疆卫视",
+    "title": "新疆卫视",
+    "uris": [
+      "http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "延边卫视",
+    "title": "延边卫视",
+    "uris": [
+      "https://srs.iyb983.cn/video/CYS/index.m3u8",
+      "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4",
+      "https://srs.iyb983.cn:443/video/CYS/index.m3u8"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "云南卫视",
+    "title": "云南卫视",
+    "uris": [
+      "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.184:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "http://101.66.198.234:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+  },
+  {
+    "group": "卫视",
+    "name": "浙江卫视",
+    "title": "浙江卫视",
+    "uris": [
+      "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+      "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+      "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3",
+      "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
+      "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "凤凰中文",
+    "title": "凤凰中文",
+    "uris": [
+      "http://127.0.0.1:34567/fh/f7f48462-9b13-485b-8101-7b54716411ec.flv"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "凤凰资讯",
+    "title": "凤凰资讯",
+    "uris": [
+      "http://127.0.0.1:34567/fh/7c96b084-60e1-40a9-89c5-682b994fb680.flv"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "凤凰香港",
+    "title": "凤凰香港",
+    "uris": [
+      "http://127.0.0.1:34567/fh/15e02d92-1698-416c-af2f-3e9a872b4d78.flv"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "翡翠台",
+    "title": "翡翠台",
+    "uris": [
+      "http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8",
+      "https://cdn3.indevs.in/stream/tvb/fct/",
+      "https://cdn3.indevs.in/stream/live/jade/"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "美亚电影台",
+    "title": "美亚电影台",
+    "uris": [
+      "http://103.172.187.30:12000/stream/mytv/null-10/master.m3u8"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "Asian Drama 亚洲剧集",
+    "title": "Asian Drama 亚洲剧集",
+    "uris": [
+      "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "Golden Jade",
+    "title": "Golden Jade",
+    "uris": [
+      "http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "明珠台",
+    "title": "明珠台",
+    "uris": [
+      "https://cdn3.indevs.in/stream/tvb/mzt/",
+      "https://cdn.qd.je/163189/mzt"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "TVB Plus",
+    "title": "TVB Plus",
+    "uris": [
+      "https://cdn3.indevs.in/stream/tvb/tvbp/"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "无线新闻台",
+    "title": "无线新闻台",
+    "uris": [
+      "https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "HOY TV",
+    "title": "HOY TV",
+    "uris": [
+      "http://120.234.44.98:18180/TV00000000000000000036@HHZT"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "HOY国际财经",
+    "title": "HOY国际财经",
+    "uris": [
+      "https://cdn.qd.je/163189/hoy76"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "ViuTV",
+    "title": "ViuTV",
+    "uris": [
+      "http://110.235.82.60:8001/bysid/99",
+      "http://120.234.44.98:18180/TV00000000000000000037@HHZT"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "港台电视31",
+    "title": "港台电视31",
+    "uris": [
+      "https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8"
+    ]
+  },
+  {
+    "group": "香港",
+    "name": "耀才财经",
+    "title": "耀才财经",
+    "uris": [
+      "https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "澳门",
+    "name": "澳视澳门",
+    "title": "澳视澳门",
+    "uris": [
+      "https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "澳门",
+    "name": "澳门资讯",
+    "title": "澳门资讯",
+    "uris": [
+      "https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "澳门",
+    "name": "澳门卫星",
+    "title": "澳门卫星",
+    "uris": [
+      "https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "澳门",
+    "name": "澳门葡文",
+    "title": "澳门葡文",
+    "uris": [
+      "https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "东森洋片",
+    "title": "东森洋片",
+    "uris": [
+      "http://111.59.139.85:11888/tsfile/live/1217_1.m3u8?key=txiptv"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "信吉电视",
+    "title": "信吉电视",
+    "uris": [
+      "http://111.59.139.85:11888/tsfile/live/1220_1.m3u8?key=txiptv"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "公视3台",
+    "title": "公视3台",
+    "uris": [
+      "http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "Discovery Asia",
+    "title": "Discovery Asia",
+    "uris": [
+      "http://125.227.210.55:1004/VideoInput/play.ts"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "TVBS亚洲",
+    "title": "TVBS亚洲",
+    "uris": [
+      "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "大立电视",
+    "title": "大立电视",
+    "uris": [
+      "http://www.dalitv.com.tw:4568/live/dali/index.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "人间卫视",
+    "title": "人间卫视",
+    "uris": [
+      "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "唯心电视",
+    "title": "唯心电视",
+    "uris": [
+      "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "原住民族电视",
+    "title": "原住民族电视",
+    "uris": [
+      "https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "台视",
+    "title": "台视",
+    "uris": [
+      "http://211.72.174.95:8112/0.ts"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "公视",
+    "title": "公视",
+    "uris": [
+      "http://211.72.174.95:8116/0.ts"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "民视",
+    "title": "民视",
+    "uris": [
+      "http://211.72.174.95:8115/0.ts"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "民视新闻",
+    "title": "民视新闻",
+    "uris": [
+      "http://211.72.174.95:8117/0.ts",
+      "http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "台视新闻",
+    "title": "台视新闻",
+    "uris": [
+      "https://live.wcetv.com/hls/master-ttvnews.m3u8",
+      "http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "TVBS新闻",
+    "title": "TVBS新闻",
+    "uris": [
+      "http://38.64.72.148/hls/modn/list/4027/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "中天新闻",
+    "title": "中天新闻",
+    "uris": [
+      "http://111.0.115.129:8081/live/000ztxw.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "东森综合2台",
+    "title": "东森综合2台",
+    "uris": [
+      "https://h5cdn3.kylintv.tv/live/ebcvtv_iphone.m3u8"
+    ]
+  },
+  {
+    "group": "台湾",
+    "name": "中天美洲台",
+    "title": "中天美洲台",
+    "uris": [
+      "http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8"
+    ]
+  }
+]

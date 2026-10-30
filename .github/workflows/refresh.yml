@@ -1,0 +1,70 @@
+name: Refresh live subscription
+
+on:
+  schedule:
+    - cron: '23 22 * * *' # 06:23 Asia/Shanghai the following day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config/**'
+      - 'src/**'
+      - 'test/**'
+      - 'package.json'
+      - '.github/workflows/refresh.yml'
+
+concurrency:
+  group: refresh-live-subscription
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - name: Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Test merge and failure protections
+        run: node --test
+      - name: Fetch, probe, merge and validate
+        run: node src/update.mjs
+      - name: Preserve generated snapshot and daily report
+        run: |
+          git config user.name 'AlexF'
+          git config user.email 'AlexF@local.com'
+          git add docs/channels.json docs/report.json
+          if ! git diff --cached --quiet; then
+            git commit -m '同步央视卫视线路以跟随上游变化并保留港台配置和失效回退'
+            git push origin HEAD:main
+          fi
+      - name: Upload validated Pages content
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the validated subscription
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

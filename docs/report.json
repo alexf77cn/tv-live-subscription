@@ -1,0 +1,2414 @@
+{
+  "generatedAt": "2026-10-30T16:54:05.995Z",
+  "timezone": "UTC",
+  "channelCount": 80,
+  "protectedChannelCount": 37,
+  "automaticValidation": "HTTP/HLS structure and first media bytes only; no automatic logo, program identity, playlist-progress or long-duration playback verification. A healthy current/seed first choice stays first; new candidates replace failed/removed choices and refresh backups.",
+  "sources": [
+    {
+      "name": "vbskycn-ipv4",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+      "ok": true,
+      "candidateCount": 26
+    },
+    {
+      "name": "zilong7728-best",
+      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+      "ok": true,
+      "candidateCount": 27
+    },
+    {
+      "name": "alantang1977-ipv4",
+      "url": "https://raw.githubusercontent.com/alantang1977/iptv_api/main/output/live_ipv4.m3u",
+      "ok": true,
+      "candidateCount": 611
+    }
+  ],
+  "channels": [
+    {
+      "name": "CCTV-1",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv1hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv1hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-2",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv2hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv2hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-3",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv3hd.m3u8",
+        "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2",
+        "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路5"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv3hd.m3u8",
+        "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2",
+        "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路5"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-4",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv4hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv4hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-5",
+      "candidateCount": 6,
+      "passed": [
+        "http://107.150.60.122/live/cctv5hd.m3u8",
+        "http://gmxw.7766.org:808/hls/93/index.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://107.150.60.122/live/cctv5hd.m3u8",
+        "http://gmxw.7766.org:808/hls/93/index.m3u8",
+        "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-5+",
+      "candidateCount": 6,
+      "passed": [
+        "http://107.150.60.122/live//cctv5p.m3u8",
+        "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://107.150.60.122/live//cctv5p.m3u8",
+        "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://120.76.248.139/live/bfgd/4200000246.m3u8",
+        "http://47.100.80.251:50001/641886773"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-6",
+      "candidateCount": 6,
+      "passed": [
+        "http://69.30.245.50/live/cctv6.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://69.30.245.50/live/cctv6.m3u8",
+        "http://198.204.240.250:82/live/cctv6.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-7",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv7hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv7hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-8",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv8hd.m3u8",
+        "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv8hd.m3u8",
+        "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-9",
+      "candidateCount": 6,
+      "passed": [
+        "https://xykt-fix.github.io/Y77.m3u8",
+        "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da11d4e7bde71b3ff91281d1f351b6dc"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "https://xykt-fix.github.io/Y77.m3u8",
+        "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da11d4e7bde71b3ff91281d1f351b6dc"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-10",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv10hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv10hd.m3u8",
+        "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-11",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv11hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv11hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-12",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv12hd.m3u8",
+        "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv12hd.m3u8",
+        "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-13",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv13hd.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$IPV4•线路2"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv13hd.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$IPV4•线路2"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-14",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv14hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv14hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-15",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv15hd.m3u8",
+        "http://gmxw.7766.org:808/hls/102/index.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv15hd.m3u8",
+        "http://gmxw.7766.org:808/hls/102/index.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "CCTV-17",
+      "candidateCount": 6,
+      "passed": [
+        "http://74.91.26.218:82/live/cctv17hd.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://74.91.26.218:82/live/cctv17hd.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "安徽卫视",
+      "candidateCount": 6,
+      "passed": [
+        "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
+        "http://gmxw.7766.org:808/hls/40/index.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
+        "http://gmxw.7766.org:808/hls/40/index.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "兵团卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://59.39.89.130:60901/tsfile/live/0125_9.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://59.39.89.130:60901/tsfile/live/0125_9.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "重庆卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.198.95.220:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.198.95.220:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "东方卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+        "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+        "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+        "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+        "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+        "http://120.198.95.220:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "东南卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "广东卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.194.29:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.194.29:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "广西卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://120.198.95.220:9901/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "贵州卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.198.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.198.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.234:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://36.136.38.87:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "河北卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
+        "http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "河南卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "黑龙江卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1",
+        "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1",
+        "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "吉林卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.18:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "江苏卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.40.39.246:352/newlive/live/hls/31/live.m3u8",
+        "http://8.138.7.223/tv/jsws4k.php"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.40.39.246:352/newlive/live/hls/31/live.m3u8",
+        "http://8.138.7.223/tv/jsws4k.php"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "江西卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.198.234:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.198.234:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://101.66.194.29:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "辽宁卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.198.95.220:9901/tsfile/live/1051_1.m3u8?key=txiptv&playlive=1&down=1",
+        "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.198.95.220:9901/tsfile/live/1051_1.m3u8?key=txiptv&playlive=1&down=1",
+        "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "内蒙古卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+        "http://59.39.89.130:60901/tsfile/live/0125_21.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "山东卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.198.234:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.198.234:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://120.198.95.220:9901/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "山西卫视",
+      "candidateCount": 2,
+      "passed": [
+        "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+        "http://101.66.194.176:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.18:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "陕西卫视",
+      "candidateCount": 2,
+      "passed": [
+        "http://101.66.194.176:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.194.176:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.18:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.184:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "四川卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.198.95.220:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.198.95.220:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1",
+        "http://101.66.194.29:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "天津卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
+        "http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "西藏卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "新疆卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0",
+        "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "延边卫视",
+      "candidateCount": 6,
+      "passed": [
+        "https://srs.iyb983.cn/video/CYS/index.m3u8",
+        "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "https://srs.iyb983.cn/video/CYS/index.m3u8",
+        "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4",
+        "https://srs.iyb983.cn:443/video/CYS/index.m3u8"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "云南卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.184:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+        "http://101.66.198.234:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0"
+      ],
+      "keptPrevious": false
+    },
+    {
+      "name": "浙江卫视",
+      "candidateCount": 6,
+      "passed": [
+        "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+        "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3"
+      ],
+      "currentFirstPassed": true,
+      "keptCurrentFirst": true,
+      "selected": [
+        "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+        "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+        "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3",
+        "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
+        "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1"
+      ],
+      "keptPrevious": false
+    }
+  ],
+  "probes": [
+    {
+      "name": "CCTV-1",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 4271
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV1$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 24
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv1$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 3943
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10504
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://175.8.28.207:9999/tsfile/live/0001_1.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2186
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv1$IPV4•线路5",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND t.061899.xyz",
+      "elapsedMs": 4
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://74.91.26.218:82/live/cctv2hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2251
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://148.135.93.213/live.php?id=CCTV2$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18009
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://43.251.226.89:8080/play/2.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2551
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://112.27.235.94:8000/hls/2/index.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 500",
+      "elapsedMs": 40
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv2$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 3870
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10342
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 1530
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV3$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 14
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 231
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://183.215.134.239:19901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10232
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://39.152.103.17:8089/tsfile/live/1002_1.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2290
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路5",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 122
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://74.91.26.218:82/live/cctv4hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 732
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://148.135.93.213/live.php?id=CCTV4$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18014
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv4$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2815
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv4o$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2411
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv4a$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 1819
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10503
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://107.150.60.122/live/cctv5hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 4198
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://gmxw.7766.org:808/hls/93/index.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 374
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV5$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 23
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://gmxw.7766.org:808/hls/93/index.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 35
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://43.251.226.89:8080/play/5.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 5025
+    },
+    {
+      "name": "CCTV-5",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv5$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2291
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://107.150.60.122/live//cctv5p.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 709
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2978
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://148.135.93.213/live.php?id=CCTV5p$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18000
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://47.100.80.251:50001/641886773$IPV4•线路2",
+      "ok": false,
+      "reason": "Not a real HLS playlist",
+      "elapsedMs": 48
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p$IPV4•线路3",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND a8.061899.xyz",
+      "elapsedMs": 1218
+    },
+    {
+      "name": "CCTV-5+",
+      "url": "http://107.150.60.122/live//cctv5p.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 231
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://69.30.245.50/live/cctv6.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2305
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV6$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 25
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://43.251.226.89:8080/play/7.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 3545
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv6$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 4875
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://112.27.235.94:8000/hls/7/index.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 500",
+      "elapsedMs": 38
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://xxwx.yoesun.com/xxw/1905电影网.php?id=cctv6$IPV4•线路5",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 11220
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://74.91.26.218:82/live/cctv7hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2220
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://148.135.93.213/live.php?id=CCTV7$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18003
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://43.251.226.89:8080/play/8.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 3526
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv7$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2822
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10245
+    },
+    {
+      "name": "CCTV-7",
+      "url": "http://175.8.28.207:9999/tsfile/live/0007_1.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2163
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://74.91.26.218:82/live/cctv8hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 3687
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2372
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 21
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://gmxw.7766.org:808/hls/96/index.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1080
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 140
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://183.215.134.239:19901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10592
+    },
+    {
+      "name": "CCTV-9",
+      "url": "https://xykt-fix.github.io/Y77.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 1342
+    },
+    {
+      "name": "CCTV-9",
+      "url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da11d4e7bde71b3ff91281d1f351b6dc",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 142
+    },
+    {
+      "name": "CCTV-9",
+      "url": "http://148.135.93.213/live.php?id=CCTV9$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18003
+    },
+    {
+      "name": "CCTV-9",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv9$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 1808
+    },
+    {
+      "name": "CCTV-9",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10520
+    },
+    {
+      "name": "CCTV-9",
+      "url": "http://175.8.28.207:9999/tsfile/live/0009_1.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2157
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://74.91.26.218:82/live/cctv10hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2976
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV10$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 22
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://43.251.226.89:8080/play/11.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2534
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10634
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://175.8.28.207:9999/tsfile/live/0010_1.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2161
+    },
+    {
+      "name": "CCTV-10",
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv10$IPV4•线路5",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND t.061899.xyz",
+      "elapsedMs": 2
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://74.91.26.218:82/live/cctv11hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 732
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://148.135.93.213/live.php?id=CCTV11$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18008
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv11$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 1832
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10568
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://175.8.28.207:9999/tsfile/live/0011_1.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2209
+    },
+    {
+      "name": "CCTV-11",
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv11$IPV4•线路5",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND t.061899.xyz",
+      "elapsedMs": 2
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2359
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 154
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV12$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 22
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://47.100.80.251:50001/673168185$IPV4•线路2",
+      "ok": false,
+      "reason": "Not a real HLS playlist",
+      "elapsedMs": 50
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv12$IPV4•线路3",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND a8.061899.xyz",
+      "elapsedMs": 404
+    },
+    {
+      "name": "CCTV-12",
+      "url": "http://107.150.60.122/live//cctv12hd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 759
+    },
+    {
+      "name": "CCTV-13",
+      "url": "http://74.91.26.218:82/live/cctv13hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2177
+    },
+    {
+      "name": "CCTV-13",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 123
+    },
+    {
+      "name": "CCTV-13",
+      "url": "http://148.135.93.213/live.php?id=CCTV13$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18010
+    },
+    {
+      "name": "CCTV-13",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$IPV4•线路2",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 95
+    },
+    {
+      "name": "CCTV-13",
+      "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 444
+    },
+    {
+      "name": "CCTV-13",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv13$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2166
+    },
+    {
+      "name": "CCTV-14",
+      "url": "http://74.91.26.218:82/live/cctv14hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2322
+    },
+    {
+      "name": "CCTV-14",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV14$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 12
+    },
+    {
+      "name": "CCTV-14",
+      "url": "https://event.pull.hebtv.com/jishi/cp2.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 158
+    },
+    {
+      "name": "CCTV-14",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv14$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2840
+    },
+    {
+      "name": "CCTV-14",
+      "url": "http://43.251.226.89:8080/play/15.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 3822
+    },
+    {
+      "name": "CCTV-14",
+      "url": "http://112.27.235.94:8000/hls/15/index.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 500",
+      "elapsedMs": 38
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://74.91.26.218:82/live/cctv15hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 731
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://gmxw.7766.org:808/hls/102/index.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 92
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://148.135.93.213/live.php?id=CCTV15$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18014
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://gmxw.7766.org:808/hls/102/index.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 30
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://43.251.226.89:8080/play/16.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 5599
+    },
+    {
+      "name": "CCTV-15",
+      "url": "http://tvbox6.icu/tv/migu.php?id=cctv15$IPV4•线路4",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 1800
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://74.91.26.218:82/live/cctv17hd.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2411
+    },
+    {
+      "name": "CCTV-17",
+      "url": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND live.264788.xyz",
+      "elapsedMs": 542
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://74.48.192.96:82/live.php?id=CCTV17$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18004
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://47.100.80.251:50001/673168256$IPV4•线路2",
+      "ok": false,
+      "reason": "Not a real HLS playlist",
+      "elapsedMs": 43
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17$IPV4•线路3",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND a8.061899.xyz",
+      "elapsedMs": 412
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://107.150.60.122/live//cctv17hd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1296
+    },
+    {
+      "name": "安徽卫视",
+      "url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 2799
+    },
+    {
+      "name": "安徽卫视",
+      "url": "http://gmxw.7766.org:808/hls/40/index.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 102
+    },
+    {
+      "name": "安徽卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/ahws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1032
+    },
+    {
+      "name": "安徽卫视",
+      "url": "http://101.35.240.114:88/live.php?id=安徽卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 21
+    },
+    {
+      "name": "安徽卫视",
+      "url": "http://107.150.60.122/live/ahwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 229
+    },
+    {
+      "name": "安徽卫视",
+      "url": "http://192.151.150.154/live/ahwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1838
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://59.39.89.130:60901/tsfile/live/0125_9.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 338
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/btws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 672
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 469
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://107.150.60.122/live/btws.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 357
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://192.151.150.154/live/btws.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 700
+    },
+    {
+      "name": "兵团卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/btws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1475
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://120.198.95.220:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 263
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/cqws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 260
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://148.135.93.213/live.php?id=重庆卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18003
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://107.150.60.122/live/cqwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 230
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://192.151.150.154/live/cqwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 238
+    },
+    {
+      "name": "重庆卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/cqws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 883
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 641
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 120
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/dfws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 260
+    },
+    {
+      "name": "东方卫视",
+      "url": "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 691
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 72
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://107.150.60.122/live/dfwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 229
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 198
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/dnws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 264
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://148.135.93.213/live.php?id=东南卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18014
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://107.150.60.122/live/dnwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 230
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://192.151.150.154/live/dnwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 238
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/dnws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 358
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://101.66.194.29:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 106
+    },
+    {
+      "name": "广东卫视",
+      "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4",
+      "ok": false,
+      "reason": "Not a real HLS playlist",
+      "elapsedMs": 295
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/gdws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 259
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://101.35.240.114:88/live.php?id=广东卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 21
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://107.150.60.122/live/gdwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 228
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://192.151.150.154/live/gdwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 238
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 52
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://148.135.93.213/live.php?id=广西卫视$IPV4•线路1",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18001
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://107.150.60.122/live/gxwshd.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 229
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://192.151.150.154/live/gxwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 242
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/gxws.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 359
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://198980.xyz:8888/rtp/239.49.8.10:8000$IPV4•线路5",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 2694
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://101.66.198.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 83
+    },
+    {
+      "name": "贵州卫视",
+      "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND live.264788.xyz",
+      "elapsedMs": 2
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/gzws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 262
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://148.135.93.213/live.php?id=贵州卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18006
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://107.150.60.122/live/gzwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 645
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://192.151.150.154/live/gzwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 241
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 49
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10611
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/hews.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 260
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://148.135.93.213/live.php?id=河北卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18014
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10833
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://107.150.60.122/live/hewshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 971
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 235
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/haws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 687
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://148.135.93.213/live.php?id=河南卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18003
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://107.150.60.122/live/hawshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 248
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://192.151.150.154/live/hawshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1333
+    },
+    {
+      "name": "河南卫视",
+      "url": "http://115.29.208.41:34567/gd.php?id=henws&kl=www.9kds.com$IPV4•线路5",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND kr.9kds.com",
+      "elapsedMs": 10597
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 1279
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 317
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/hljws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 239
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "http://148.135.93.213/live.php?id=黑龙江卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18010
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "http://107.150.60.122/live/hljwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 248
+    },
+    {
+      "name": "黑龙江卫视",
+      "url": "http://192.151.150.154/live/hljwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 233
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 342
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/jlws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 240
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://148.135.93.213/live.php?id=吉林卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18011
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://107.150.60.122/live/jlwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 248
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://192.151.150.154/live/jlwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 232
+    },
+    {
+      "name": "吉林卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/jlws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 916
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://120.40.39.246:352/newlive/live/hls/31/live.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 102
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://8.138.7.223/tv/jsws4k.php",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 873
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/jsws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 239
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://101.35.240.114:88/live.php?id=江苏卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 21
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://107.150.60.122/live/jswshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 248
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://192.151.150.154/live/jswshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 709
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://101.66.198.234:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 185
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 103
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/jxws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 708
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://101.35.240.114:88/live.php?id=江西卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 12
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://107.150.60.122/live/jxwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 719
+    },
+    {
+      "name": "江西卫视",
+      "url": "http://192.151.150.154/live/jxwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 711
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://120.198.95.220:9901/tsfile/live/1051_1.m3u8?key=txiptv&playlive=1&down=1",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 211
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 119
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/lnws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 237
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://148.135.93.213/live.php?id=辽宁卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18012
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://107.150.60.122/live/lnwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 249
+    },
+    {
+      "name": "辽宁卫视",
+      "url": "http://192.151.150.154/live/lnwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 239
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 48
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000110.m3u8",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10486
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/nmgws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 238
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://101.35.240.114:88/live.php?id=内蒙古卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 13
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000110.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10229
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://107.150.60.122/live/nmgws.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 247
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://101.66.198.234:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 50
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/sdws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 656
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://148.135.93.213/live.php?id=山东卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18002
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://107.150.60.122/live/snwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 249
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://192.151.150.154/live/snwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 680
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/sdws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 1576
+    },
+    {
+      "name": "山西卫视",
+      "url": "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 186
+    },
+    {
+      "name": "山西卫视",
+      "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 123
+    },
+    {
+      "name": "陕西卫视",
+      "url": "http://101.66.194.176:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 231
+    },
+    {
+      "name": "陕西卫视",
+      "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND live.264788.xyz",
+      "elapsedMs": 3
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://120.198.95.220:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 267
+    },
+    {
+      "name": "四川卫视",
+      "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": false,
+      "reason": "getaddrinfo ENOTFOUND live.264788.xyz",
+      "elapsedMs": 7
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/scws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 698
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://148.135.93.213/live.php?id=四川卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18005
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://107.150.60.122/live/scwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 672
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://192.151.150.154/live/scwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 760
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 138
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/tjws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 242
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://148.135.93.213/live.php?id=天津卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18002
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://107.150.60.122/live/tjwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 229
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://192.151.150.154/live/tjwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 695
+    },
+    {
+      "name": "天津卫视",
+      "url": "http://j.s.bkpcp.top/jj/tjws$IPV4•线路5",
+      "ok": false,
+      "reason": "Not a real HLS playlist",
+      "elapsedMs": 1599
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 112
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/xzws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 242
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://101.35.240.114:88/live.php?id=西藏卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 23
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://107.150.60.122/live/xzws.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 228
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://192.151.150.154/live/xzws.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 239
+    },
+    {
+      "name": "西藏卫视",
+      "url": "http://vpn.jk960.cn:8686/rtp/239.77.0.46:5146$IPV4•线路5",
+      "ok": true,
+      "type": "direct-media",
+      "elapsedMs": 668
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 473
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 304
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/xjws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 721
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://101.35.240.114:88/live.php?id=新疆卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 13
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://107.150.60.122/live/xjws.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 232
+    },
+    {
+      "name": "新疆卫视",
+      "url": "http://192.151.150.154/live/xjws.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 240
+    },
+    {
+      "name": "延边卫视",
+      "url": "https://srs.iyb983.cn/video/CYS/index.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 276
+    },
+    {
+      "name": "延边卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000117.m3u8",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10599
+    },
+    {
+      "name": "延边卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/ybws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 238
+    },
+    {
+      "name": "延边卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000117.m3u8$IPV4•线路2",
+      "ok": false,
+      "reason": "fetch failed",
+      "elapsedMs": 10361
+    },
+    {
+      "name": "延边卫视",
+      "url": "http://mg.hmysapp.cn:177/偷源狗/卫视/延边卫视.php?id=301$IPV4•线路3",
+      "ok": false,
+      "reason": "The operation was aborted due to timeout",
+      "elapsedMs": 18013
+    },
+    {
+      "name": "延边卫视",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 287
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 78
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/ynws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 240
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 56
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://107.150.60.122/live/ynwshd.m3u8$IPV4•线路3",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 228
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://192.151.150.154/live/ynwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 240
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://bztv.tvbus.cc:8081/cdnlive/ynws.m3u8$IPV4•线路5",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 897
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 39
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 270
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://204.12.221.218:8181/3m1080p/zjws.m3u8$IPV4•线路1",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 240
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://101.35.240.114:88/live.php?id=浙江卫视$IPV4•线路2",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 14
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3",
+      "ok": true,
+      "type": "hls-media",
+      "elapsedMs": 128
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://107.150.60.122/live/zjwshd.m3u8$IPV4•线路4",
+      "ok": false,
+      "reason": "HTTP 404",
+      "elapsedMs": 229
+    }
+  ]
+}
