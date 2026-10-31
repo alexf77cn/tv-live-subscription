@@ -4,7 +4,7 @@
     "name": "CCTV-1",
     "title": "CCTV-1",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000488.m3u8"
+      "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8"
     ]
   },
   {
@@ -12,7 +12,7 @@
     "name": "CCTV-2",
     "title": "CCTV-2",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000061.m3u8"
+      "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8"
     ]
   },
   {
@@ -20,7 +20,6 @@
     "name": "CCTV-3",
     "title": "CCTV-3",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000062.m3u8",
       "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8"
     ]
   },
@@ -29,8 +28,7 @@
     "name": "CCTV-4",
     "title": "CCTV-4",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000063.m3u8",
-      "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8"
+      "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8"
     ]
   },
   {
@@ -68,7 +66,7 @@
     "name": "CCTV-7",
     "title": "CCTV-7",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8"
     ]
   },
   {
@@ -76,7 +74,7 @@
     "name": "CCTV-8",
     "title": "CCTV-8",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000066.m3u8"
+      "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -94,7 +92,7 @@
     "name": "CCTV-10",
     "title": "CCTV-10",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000129.m3u8"
+      "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -102,7 +100,7 @@
     "name": "CCTV-11",
     "title": "CCTV-11",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000130.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8"
     ]
   },
   {
@@ -110,7 +108,6 @@
     "name": "CCTV-12",
     "title": "CCTV-12",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000131.m3u8",
       "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
@@ -119,7 +116,7 @@
     "name": "CCTV-13",
     "title": "CCTV-13",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000067.m3u8"
+      "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -127,7 +124,7 @@
     "name": "CCTV-14",
     "title": "CCTV-14",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000132.m3u8"
+      "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -135,7 +132,7 @@
     "name": "CCTV-15",
     "title": "CCTV-15",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000133.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8"
     ]
   },
   {
@@ -143,7 +140,7 @@
     "name": "CCTV-17",
     "title": "CCTV-17",
     "uris": [
-      "http://120.76.248.139/live/bfgd/4200000204.m3u8"
+      "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8"
     ]
   },
   {

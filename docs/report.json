@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T03:54:55.624Z",
+  "generatedAt": "2026-10-31T04:34:43.716Z",
   "timezone": "UTC",
   "channelCount": 80,
   "protectedChannelCount": 37,
@@ -27,50 +27,46 @@
   "channels": [
     {
       "name": "CCTV-1",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000488.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000488.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8"
       ]
     },
     {
       "name": "CCTV-2",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000061.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000061.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8"
       ]
     },
     {
       "name": "CCTV-3",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000062.m3u8",
         "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000062.m3u8",
         "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8"
       ]
     },
     {
       "name": "CCTV-4",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000063.m3u8",
-        "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000063.m3u8",
-        "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8"
+        "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8"
       ]
     },
     {
@@ -121,24 +117,24 @@
     },
     {
       "name": "CCTV-7",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000127.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8"
       ]
     },
     {
       "name": "CCTV-8",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000066.m3u8"
+        "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000066.m3u8"
+        "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0"
       ]
     },
     {
@@ -159,81 +155,79 @@
     },
     {
       "name": "CCTV-10",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000129.m3u8"
+        "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000129.m3u8"
+        "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0"
       ]
     },
     {
       "name": "CCTV-11",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000130.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000130.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8"
       ]
     },
     {
       "name": "CCTV-12",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000131.m3u8",
         "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000131.m3u8",
         "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
       ]
     },
     {
       "name": "CCTV-13",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000067.m3u8"
+        "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000067.m3u8"
+        "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0"
       ]
     },
     {
       "name": "CCTV-14",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000132.m3u8"
+        "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000132.m3u8"
+        "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0"
       ]
     },
     {
       "name": "CCTV-15",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000133.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000133.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8"
       ]
     },
     {
       "name": "CCTV-17",
-      "validation": "manual-decoding-and-channel-identity",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "validation": "manual-identity-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "passed": [
-        "http://120.76.248.139/live/bfgd/4200000204.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8"
       ],
       "selected": [
-        "http://120.76.248.139/live/bfgd/4200000204.m3u8"
+        "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8"
       ]
     },
     {
@@ -1829,169 +1823,152 @@
     },
     {
       "name": "CCTV-1",
-      "url": "http://120.76.248.139/live/bfgd/4200000488.m3u8",
+      "url": "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
+      "tvAudioStarted": true,
+      "finalHost": "120.40.39.246:352"
     },
     {
       "name": "CCTV-2",
-      "url": "http://120.76.248.139/live/bfgd/4200000061.m3u8",
+      "url": "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
-    },
-    {
-      "name": "CCTV-3",
-      "url": "http://120.76.248.139/live/bfgd/4200000062.m3u8",
-      "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
-      "hasAudio": true,
-      "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
+      "tvAudioStarted": true,
+      "finalHost": "120.40.39.246:352"
     },
     {
       "name": "CCTV-3",
       "url": "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
+      "tvAudioStarted": true,
       "finalHost": "120.40.39.246:352"
     },
     {
       "name": "CCTV-4",
-      "url": "http://120.76.248.139/live/bfgd/4200000063.m3u8",
+      "url": "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
-    },
-    {
-      "name": "CCTV-4",
-      "url": "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8",
-      "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
-      "hasAudio": true,
-      "channelIdentityChecked": true,
-      "finalHost": "183.250.156.180:9999"
+      "tvAudioStarted": true,
+      "finalHost": "120.40.39.246:352"
     },
     {
       "name": "CCTV-7",
-      "url": "http://120.76.248.139/live/bfgd/4200000127.m3u8",
+      "url": "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
+      "tvAudioStarted": true,
+      "finalHost": "183.250.156.180:9999"
     },
     {
       "name": "CCTV-8",
-      "url": "http://120.76.248.139/live/bfgd/4200000066.m3u8",
+      "url": "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
+      "tvAudioStarted": true,
+      "finalHost": "113.15.109.216:59901"
     },
     {
       "name": "CCTV-10",
-      "url": "http://120.76.248.139/live/bfgd/4200000129.m3u8",
+      "url": "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
+      "tvAudioStarted": true,
+      "finalHost": "153.0.171.163:9901"
     },
     {
       "name": "CCTV-11",
-      "url": "http://120.76.248.139/live/bfgd/4200000130.m3u8",
+      "url": "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn:14311"
-    },
-    {
-      "name": "CCTV-12",
-      "url": "http://120.76.248.139/live/bfgd/4200000131.m3u8",
-      "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
-      "hasAudio": true,
-      "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn"
+      "tvAudioStarted": true,
+      "finalHost": "183.250.156.180:9999"
     },
     {
       "name": "CCTV-12",
       "url": "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "113.15.109.216"
+      "tvAudioStarted": true,
+      "finalHost": "113.15.109.216:59901"
     },
     {
       "name": "CCTV-13",
-      "url": "http://120.76.248.139/live/bfgd/4200000067.m3u8",
+      "url": "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn"
+      "tvAudioStarted": true,
+      "finalHost": "59.39.89.130:60901"
     },
     {
       "name": "CCTV-14",
-      "url": "http://120.76.248.139/live/bfgd/4200000132.m3u8",
+      "url": "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn"
+      "tvAudioStarted": true,
+      "finalHost": "153.0.171.163:9901"
     },
     {
       "name": "CCTV-15",
-      "url": "http://120.76.248.139/live/bfgd/4200000133.m3u8",
+      "url": "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn"
+      "tvAudioStarted": true,
+      "finalHost": "183.250.156.180:9999"
     },
     {
       "name": "CCTV-17",
-      "url": "http://120.76.248.139/live/bfgd/4200000204.m3u8",
+      "url": "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8",
       "ok": true,
-      "type": "manual-ffmpeg",
-      "checkedAt": "2026-10-31T03:54:55.624Z",
+      "type": "manual-tv-media-and-player",
+      "checkedAt": "2026-10-31T04:34:43.716Z",
       "hasAudio": true,
       "channelIdentityChecked": true,
-      "finalHost": "httplive.slave.bfgd.com.cn"
+      "tvAudioStarted": true,
+      "finalHost": "183.250.156.180:9999"
     }
   ],
   "lastFullAutomaticCheckAt": "2026-10-31T01:42:27.109Z",
   "manualReview": {
-    "checkedAt": "2026-10-31T03:54:55.624Z",
-    "reason": "User reported intermittent unsolicited advertising on CCTV-1 and requested replacing all 13 channels using the same entry server; advertising was not reproduced in this inspection.",
+    "checkedAt": "2026-10-31T04:34:43.716Z",
+    "reason": "User requested replacing all 13 channels using 74.91.26.218 after reporting intermittent unsolicited CCTV-1 advertising; the advertising itself was not reproduced.",
     "channels": [
       "CCTV-1",
       "CCTV-2",
@@ -2008,133 +1985,574 @@
       "CCTV-17"
     ],
     "otherChannelCountPreserved": 67,
-    "method": "Each selected stream decoded with FFmpeg, its channel logo reviewed and audio decoded; selected streams were checked for 5–20 seconds. No physical TV picture/speaker acceptance or long-term guarantee.",
-    "blockedHosts": [
-      "74.91.26.218",
-      "63.141.239.226"
+    "method": "All 13 selected stream identities and audio were checked on a PC; the TV downloaded actual media and each channel was selected in the player with an active audio track observed. CCTV-10 and CCTV-14 used lower bitrate streams and each remained active in three samples over about 30 seconds.",
+    "limits": [
+      "Short playback samples do not guarantee long-term stability or no advertisements.",
+      "CCTV-10 and CCTV-14 are 720x576 SD; some other channels buffer during startup.",
+      "Physical TV picture and speaker quality still require user confirmation."
     ],
-    "rejectedWrongChannelUrls": [
-      "http://120.76.248.139/live/bfgd/4200000484.m3u8",
-      "http://120.76.248.139/live/bfgd/4200000489.m3u8",
-      "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
-      "https://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8"
-    ],
+    "replacedTrial": {
+      "commit": "c3f743db18b6f184fda38628be25e31e59e2cb01",
+      "reason": "BFGD streams passed initial PC checks but later could not be reached from either the PC or TV in a simultaneous TCP check; this did not establish different LAN environments.",
+      "host": "39.152.204.1:14311",
+      "bothDevicesTimedOut": true,
+      "pcSystemProxyEnabled": false,
+      "blockedUrls": [
+        "http://120.76.248.139/live/bfgd/4200000488.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000061.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000062.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000063.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000127.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000066.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000129.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000130.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000131.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000067.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000132.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000133.m3u8",
+        "http://120.76.248.139/live/bfgd/4200000204.m3u8"
+      ]
+    },
     "selected": [
       {
         "name": "CCTV-1",
-        "url": "http://120.76.248.139/live/bfgd/4200000488.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8",
+        "finalHost": "120.40.39.246:352",
         "hasAudio": true,
-        "review": "首选；人工确认CCTV-1综合台标、《非遗里的中国》节目；H264 1920x1080及5.1音频；20秒音视频解码退出0且无错误。finalHost为媒体分片主机，配置保留稳定入口而非临时签名分片。短样本不能保证长期无广告。"
+        "frameEvidence": "in-memory viewed",
+        "source": "https://github.com/kimwang1978/collect-txt/blob/main/专区/♪优质央视.txt",
+        "review": "电脑内存抽帧人工确认CCTV-1台标、1080p和音频；20秒音视频解码退出0。HLS分段交界有Packet corrupt警告但完整解码约500帧和音频，无停滞。电视端只读GET清单和分片通过，长期稳定性仍需观察。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "checkedAt": "2026-10-31T04:12:25.013Z",
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 1292,
+          "playlistElapsedMs": 276,
+          "segmentElapsedMs": 1016,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "method": "ADB nc HTTP GET through remote base64; no TV settings/keys changed"
+        },
+        "tvPlayback": {
+          "name": "CCTV-1",
+          "number": 1,
+          "url": "http://120.40.39.246:352/newlive/live/hls/1/live.m3u8",
+          "checkedAt": "2026-10-31T04:14:29.230Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:14:03.038 18292 18292 I MainActivity: CCTV-1 playing",
+            "10-31 12:14:03.038 18292 18292 I MainActivity: CCTV-1 尝试播放",
+            "10-31 12:14:03.039 18292 18292 I PlayerFragment: CCTV-1 播放停止",
+            "10-31 12:14:05.542 18292 18292 I ChannelFragment: input 1 0",
+            "10-31 12:14:06.422 18292 18292 I MainActivity: CCTV-1 playing",
+            "10-31 12:14:06.422 18292 18292 I MainActivity: CCTV-1 尝试播放",
+            "10-31 12:14:12.633 18292 18292 I MainActivity: CCTV-1 playing",
+            "10-31 12:14:13.634 18292 18292 I PlayerFragment: CCTV-1 播放停止",
+            "10-31 12:14:23.925 18292 18292 I MainActivity: CCTV-1 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-2",
-        "url": "http://120.76.248.139/live/bfgd/4200000061.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8",
+        "finalHost": "120.40.39.246:352",
         "hasAudio": true,
-        "review": "首选；人工确认CCTV-2财经台标、《乡野有真味》节目；H264 1920x1080及AC3立体声；首轮5秒有起播解码瑕疵，复测20秒音视频解码退出0且无错误。短样本不能保证长期稳定。"
-      },
-      {
-        "name": "CCTV-3",
-        "url": "http://120.76.248.139/live/bfgd/4200000062.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
-        "hasAudio": true,
-        "review": "首选；人工确认CCTV-3综艺台标及综艺节目；H264 1920x1080及AC3 5.1音频；20秒音视频解码退出0且无错误。"
+        "frameEvidence": "in-memory viewed",
+        "source": "https://github.com/kimwang1978/collect-txt/blob/main/专区/♪优质央视.txt",
+        "review": "电脑内存抽帧人工确认CCTV-2台标、1080p和音频；20秒音视频解码退出0。HLS分段交界有Packet corrupt警告但完整解码约500帧和音频，无停滞。电视端只读GET清单和分片通过，长期稳定性仍需观察。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "checkedAt": "2026-10-31T04:12:25.118Z",
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 1392,
+          "playlistElapsedMs": 282,
+          "segmentElapsedMs": 1110,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "method": "ADB nc HTTP GET through remote base64; no TV settings/keys changed"
+        },
+        "tvPlayback": {
+          "name": "CCTV-2",
+          "number": 2,
+          "url": "http://120.40.39.246:352/newlive/live/hls/2/live.m3u8",
+          "checkedAt": "2026-10-31T04:14:49.495Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:14:13.634 18292 18292 I PlayerFragment: CCTV-1 播放停止",
+            "10-31 12:14:23.925 18292 18292 I MainActivity: CCTV-1 playing",
+            "10-31 12:14:25.804 18292 18292 I ChannelFragment: input 2 0",
+            "10-31 12:14:26.653 18292 18292 I MainActivity: CCTV-2 playing",
+            "10-31 12:14:26.653 18292 18292 I MainActivity: CCTV-2 尝试播放",
+            "10-31 12:14:26.658 18292 18292 I PlayerFragment: CCTV-2 播放停止",
+            "10-31 12:14:34.630 18292 18292 I MainActivity: CCTV-2 playing",
+            "10-31 12:14:35.628 18292 18292 I PlayerFragment: CCTV-2 播放停止",
+            "10-31 12:14:42.466 18292 18292 I MainActivity: CCTV-2 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-3",
         "url": "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8",
         "finalHost": "120.40.39.246:352",
         "hasAudio": true,
-        "review": "独立主机备选；人工确认CCTV-3综艺台标、与BFGD同节目；H264 1920x1080及AAC立体声；20秒音视频解码退出0且无错误。"
+        "frameEvidence": "in-memory viewed",
+        "source": "https://github.com/kimwang1978/collect-txt/blob/main/专区/♪优质央视.txt",
+        "review": "电脑内存抽帧人工确认CCTV-3台标、1080p和音频；20秒音视频解码退出0。复测无警告。电视端只读GET清单和分片通过，长期稳定性仍需观察。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "checkedAt": "2026-10-31T04:12:26.571Z",
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 1557,
+          "playlistElapsedMs": 270,
+          "segmentElapsedMs": 1287,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "method": "ADB nc HTTP GET through remote base64; no TV settings/keys changed"
+        },
+        "tvPlayback": {
+          "name": "CCTV-3",
+          "number": 3,
+          "url": "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8",
+          "checkedAt": "2026-10-31T04:15:00.585Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:14:55.565 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:55.569 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:55.613 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:55.623 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:55.714 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:55.725 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:55.808 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:55.819 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:55.837 18292 18292 I MainActivity: CCTV-3 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-4",
-        "url": "http://120.76.248.139/live/bfgd/4200000063.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8",
+        "finalHost": "120.40.39.246:352",
         "hasAudio": true,
-        "review": "首选；人工确认CCTV-4中文国际台标、《海峡两岸》节目；H264 1920x1080及AC3 5.1音频；20秒音视频解码退出0且无错误。"
-      },
-      {
-        "name": "CCTV-4",
-        "url": "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8",
-        "finalHost": "183.250.156.180:9999",
-        "hasAudio": true,
-        "review": "独立主机备选；人工确认CCTV-4中文国际台标、《海峡两岸》节目；H264 1920x1080及AAC立体声；20秒音视频解码退出0且无错误。"
+        "frameEvidence": "in-memory viewed",
+        "source": "https://github.com/kimwang1978/collect-txt/blob/main/专区/♪优质央视.txt",
+        "review": "电脑内存抽帧人工确认CCTV-4台标、1080p和音频；20秒音视频解码退出0。HLS分段交界有Packet corrupt警告但完整解码约500帧和音频，无停滞。电视端只读GET清单和分片通过，长期稳定性仍需观察。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "checkedAt": "2026-10-31T04:12:26.605Z",
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 1486,
+          "playlistElapsedMs": 312,
+          "segmentElapsedMs": 1174,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "method": "ADB nc HTTP GET through remote base64; no TV settings/keys changed"
+        },
+        "tvPlayback": {
+          "name": "CCTV-4",
+          "number": 4,
+          "url": "http://120.40.39.246:352/newlive/live/hls/4/live.m3u8",
+          "checkedAt": "2026-10-31T04:15:11.837Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:14:57.835 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:57.877 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:57.885 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:57.893 18292 18292 I PlayerFragment: CCTV-3 播放停止",
+            "10-31 12:14:57.916 18292 18292 I MainActivity: CCTV-3 playing",
+            "10-31 12:14:58.131 18292 18292 I MainActivity: CCTV-4 playing",
+            "10-31 12:14:58.132 18292 18292 I MainActivity: CCTV-4 尝试播放",
+            "10-31 12:14:58.134 18292 18292 I PlayerFragment: CCTV-4 播放停止",
+            "10-31 12:15:00.845 18292 18292 I MainActivity: CCTV-4 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-7",
-        "url": "http://120.76.248.139/live/bfgd/4200000127.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8",
+        "finalHost": "183.250.156.180:9999",
         "hasAudio": true,
-        "review": "CCTV-7 国防军事台标；节目《闪闪的红星》；5秒解码退出0，1920x1080/50fps，AC3 48kHz 5.1；两次HLS序号前进。",
-        "source": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.txt"
+        "review": "实际抽帧确认为CCTV7国防军事《正午国防军事》；1920x1080/50fps，MP2 48kHz立体声。5秒电脑音视频解码退出0，耗2.4秒；电视nc实际完整获取256KB媒体357毫秒。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 357,
+          "tsSync": true,
+          "checkedAt": "2026-10-31T04:21:19.617Z",
+          "transport": "adb shell nc | toybox base64"
+        },
+        "tvPlayback": {
+          "name": "CCTV-7",
+          "url": "http://183.250.156.180:9999/newlive/live/hls/7/live.m3u8",
+          "checks": [
+            {
+              "checkedAt": "2026-10-31T04:27:11.075Z",
+              "active": false
+            },
+            {
+              "checkedAt": "2026-10-31T04:27:21.174Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:27:31.293Z",
+              "active": true
+            }
+          ],
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:26:56.579 18292 18292 I MainActivity: CCTV-7 playing",
+            "10-31 12:26:56.579 18292 18292 I MainActivity: CCTV-7 尝试播放",
+            "10-31 12:27:08.028 18292 18292 I MainActivity: CCTV-7 playing",
+            "10-31 12:27:08.208 18292 18292 I PlayerFragment: CCTV-7 播放停止",
+            "10-31 12:27:12.169 18292 18292 I MainActivity: CCTV-7 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-8",
-        "url": "http://120.76.248.139/live/bfgd/4200000066.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "finalHost": "113.15.109.216:59901",
         "hasAudio": true,
-        "review": "CCTV-8 电视剧台标；节目《浴血荣光》；5秒解码退出0，1920x1080/50fps，AC3 48kHz 5.1；两次HLS序号前进。",
-        "source": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.txt"
+        "review": "已看CCTV8电视剧台标与浴血荣光；1920x1080，PC快速解码。 电视只读HTTP清单及媒体分片已验证；响应在电视base64编码后传回，避免ADB二进制换行损坏。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 443,
+          "tsSync": true,
+          "checkedAt": "2026-10-31T04:12:36.034Z",
+          "playlistElapsedMs": 308,
+          "playlistSequence": "#EXT-X-MEDIA-SEQUENCE:19683027",
+          "contentLength": "262144",
+          "timedOut": false,
+          "transport": "adb shell nc | toybox base64"
+        },
+        "tvPlayback": {
+          "name": "CCTV-8",
+          "number": 9,
+          "url": "http://113.15.109.216:59901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "checkedAt": "2026-10-31T04:15:52.148Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:15:28.547 18292 18292 I MainActivity: CCTV-8 playing",
+            "10-31 12:15:28.547 18292 18292 I MainActivity: CCTV-8 尝试播放",
+            "10-31 12:15:34.313 18292 18292 I MainActivity: CCTV-8 playing",
+            "10-31 12:15:36.202 18292 18292 I PlayerFragment: CCTV-8 播放停止",
+            "10-31 12:15:41.547 18292 18292 I MainActivity: CCTV-8 playing",
+            "10-31 12:15:43.009 18292 18292 I PlayerFragment: CCTV-8 播放停止",
+            "10-31 12:15:44.732 18292 18292 I MainActivity: CCTV-8 playing",
+            "10-31 12:15:46.171 18292 18292 I PlayerFragment: CCTV-8 播放停止",
+            "10-31 12:15:47.043 18292 18292 I MainActivity: CCTV-8 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-10",
-        "url": "http://120.76.248.139/live/bfgd/4200000129.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "finalHost": "153.0.171.163:9901",
         "hasAudio": true,
-        "review": "CCTV-10 科教台标；节目《味道·四季风味51》；5秒解码退出0，1920x1080/50fps，AC3 48kHz 立体声；两次HLS序号前进。",
-        "source": "https://raw.githubusercontent.com/mcp2016/TVBox/main/lives.txt"
+        "review": "人工确认CCTV10科教台标及《百家讲坛》；720x576标清、H264及48kHz MP2立体声。电脑20秒音视频解码退出0、零错误，墙钟6.596秒，FFmpeg报告3.29x。电视网络已读取完整最新TS而非仅前缀； 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "pcProbe": {
+          "durationSeconds": 20,
+          "elapsedMs": 6596,
+          "speed": 3.29,
+          "exitCode": 0,
+          "errors": []
+        },
+        "tvProbe": {
+          "checkedAt": "2026-10-31T04:31:13.764Z",
+          "playlistStatus": 200,
+          "segmentStatus": 200,
+          "bytes": 1712116,
+          "contentLength": 1712116,
+          "contentLengthMatches": true,
+          "segmentSeconds": 5,
+          "playlistElapsedMs": 242,
+          "segmentElapsedMs": 1614,
+          "fullSegment": true,
+          "requestedRange": false,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "segmentDownloadedFasterThanDuration": true,
+          "passed": true,
+          "timedOut": false,
+          "limited": false
+        },
+        "tvPlayback": {
+          "name": "CCTV-10",
+          "url": "http://153.0.171.163:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "checks": [
+            {
+              "checkedAt": "2026-10-31T04:32:43.052Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:32:51.186Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:32:59.315Z",
+              "active": true
+            }
+          ],
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:32:26.587 18292 18292 I MainActivity: CCTV-10 playing",
+            "10-31 12:32:26.587 18292 18292 I MainActivity: CCTV-10 尝试播放",
+            "10-31 12:32:26.589 18292 18292 I PlayerFragment: CCTV-10 播放停止",
+            "10-31 12:32:27.430 18292 18292 I MainActivity: CCTV-10 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-11",
-        "url": "http://120.76.248.139/live/bfgd/4200000130.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn:14311",
+        "url": "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8",
+        "finalHost": "183.250.156.180:9999",
         "hasAudio": true,
-        "review": "CCTV-11 台标；频道宣传片画面；5秒解码退出0，1920x1080/50fps，AC3 48kHz 5.1；两次HLS序号前进。",
-        "source": "https://raw.githubusercontent.com/mcp2016/TVBox/main/lives.txt"
-      },
-      {
-        "name": "CCTV-12",
-        "url": "http://120.76.248.139/live/bfgd/4200000131.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn",
-        "hasAudio": true,
-        "review": "已看台标CCTV12社会与法和中国法治观察节目；HTTP200、媒体分片206，5秒音视频解码成功，抽帧未见外插广告。"
+        "review": "上游错标CCTV10，人工纠正为CCTV11戏曲；淬火年代，1920x1080，PC8.6秒完成解码。 电视只读HTTP清单及媒体分片已验证；响应在电视base64编码后传回，避免ADB二进制换行损坏。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 356,
+          "tsSync": true,
+          "checkedAt": "2026-10-31T04:12:37.994Z",
+          "playlistElapsedMs": 452,
+          "playlistSequence": "#EXT-X-MEDIA-SEQUENCE:176177",
+          "contentLength": "262144",
+          "timedOut": false,
+          "transport": "adb shell nc | toybox base64"
+        },
+        "tvPlayback": {
+          "name": "CCTV-11",
+          "number": 12,
+          "url": "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8",
+          "checkedAt": "2026-10-31T04:16:34.494Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:16:09.734 18292 18292 I ChannelFragment: input 1 0",
+            "10-31 12:16:10.336 18292 18292 I MainActivity: CCTV-10 playing",
+            "10-31 12:16:10.694 18292 18292 I ChannelFragment: input 2 1",
+            "10-31 12:16:10.719 18292 18292 I MainActivity: CCTV-11 playing",
+            "10-31 12:16:10.719 18292 18292 I MainActivity: CCTV-11 尝试播放",
+            "10-31 12:16:10.729 18292 18292 I PlayerFragment: CCTV-11 播放停止",
+            "10-31 12:16:18.429 18292 18292 I MainActivity: CCTV-11 playing",
+            "10-31 12:16:18.863 18292 18292 I PlayerFragment: CCTV-11 播放停止",
+            "10-31 12:16:23.431 18292 18292 I MainActivity: CCTV-11 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-12",
         "url": "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-        "finalHost": "113.15.109.216",
+        "finalHost": "113.15.109.216:59901",
         "hasAudio": true,
-        "review": "独立备用，HTTP200；2.1秒完成5秒音视频解码；已看CCTV12社会与法台标和中国法治观察节目，与BFGD同期节目一致。"
+        "review": "电脑2.1秒完成5秒音视频解码；已看CCTV12社会与法台标、中国法治观察；优先于电脑偏慢的112.46同台源。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 432,
+          "tsSync": true,
+          "playlistElapsedMs": 217,
+          "transport": "ADB toybox nc | toybox base64；stdin.write保持打开，远端base64后本地解码，未做二进制CR逆变换"
+        },
+        "tvPlayback": {
+          "name": "CCTV-12",
+          "number": 13,
+          "url": "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "checkedAt": "2026-10-31T04:16:55.515Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:16:23.431 18292 18292 I MainActivity: CCTV-11 playing",
+            "10-31 12:16:30.978 18292 18292 I ChannelFragment: input 1 0",
+            "10-31 12:16:31.843 18292 18292 I ChannelFragment: input 3 1",
+            "10-31 12:16:31.870 18292 18292 I MainActivity: CCTV-12 playing",
+            "10-31 12:16:31.871 18292 18292 I MainActivity: CCTV-12 尝试播放",
+            "10-31 12:16:31.876 18292 18292 I PlayerFragment: CCTV-12 播放停止",
+            "10-31 12:16:37.492 18292 18292 I MainActivity: CCTV-12 playing",
+            "10-31 12:16:38.569 18292 18292 I PlayerFragment: CCTV-12 播放停止",
+            "10-31 12:16:42.618 18292 18292 I MainActivity: CCTV-12 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-13",
-        "url": "http://120.76.248.139/live/bfgd/4200000067.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn",
+        "url": "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "finalHost": "59.39.89.130:60901",
         "hasAudio": true,
-        "review": "已看台标CCTV13新闻，新闻直播间时钟10月31日11:50，与采样时间吻合；HTTP200、媒体分片206，5秒音视频解码成功，抽帧未见外插广告。"
+        "review": "电脑抽帧见CCTV13新闻台标与同期会议画面、检测到音轨；电脑30秒超时未完成5秒样本。电视分片可达，长期稳定性仍需观察。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 1909,
+          "tsSync": true,
+          "playlistElapsedMs": 1713,
+          "transport": "ADB toybox nc | toybox base64；stdin.write保持打开，远端base64后本地解码，未做二进制CR逆变换"
+        },
+        "tvPlayback": {
+          "name": "CCTV-13",
+          "number": 14,
+          "url": "http://59.39.89.130:60901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "checkedAt": "2026-10-31T04:17:07.589Z",
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:16:37.492 18292 18292 I MainActivity: CCTV-12 playing",
+            "10-31 12:16:38.569 18292 18292 I PlayerFragment: CCTV-12 播放停止",
+            "10-31 12:16:42.618 18292 18292 I MainActivity: CCTV-12 playing",
+            "10-31 12:16:52.057 18292 18292 I ChannelFragment: input 1 0",
+            "10-31 12:16:52.930 18292 18292 I ChannelFragment: input 4 1",
+            "10-31 12:16:52.946 18292 18292 I MainActivity: CCTV-13 playing",
+            "10-31 12:16:52.946 18292 18292 I MainActivity: CCTV-13 尝试播放",
+            "10-31 12:16:52.949 18292 18292 I PlayerFragment: CCTV-13 播放停止",
+            "10-31 12:16:59.921 18292 18292 I MainActivity: CCTV-13 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-14",
-        "url": "http://120.76.248.139/live/bfgd/4200000132.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn",
+        "url": "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0",
+        "finalHost": "153.0.171.163:9901",
         "hasAudio": true,
-        "review": "已看台标CCTV14少儿和熊熊帮帮团动画；HTTP200、媒体分片206，5秒音视频解码成功，抽帧未见外插广告。"
+        "review": "人工确认CCTV14少儿台标、海绵宝宝节目、画面时钟12:30:33。电脑20秒音视频解码10.608秒完成exit0，总体约1.89倍实时；电视完整TS在1.196秒下载完成，分片时长5秒。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "pcProbe": {
+          "durationSeconds": 20,
+          "elapsedMs": 10608,
+          "exitCode": 0,
+          "overallRealtimeRatio": 1.885369532428356
+        },
+        "tvProbe": {
+          "playlistStatus": 200,
+          "playlistElapsedMs": 240,
+          "segmentStatus": 200,
+          "bytes": 1709484,
+          "contentLength": 1709484,
+          "elapsedMs": 1196,
+          "segmentDurationSeconds": 5,
+          "complete": true,
+          "withinSegmentDuration": true,
+          "tsSync": true,
+          "transport": "ADB toybox nc | toybox base64, full segment, no Range"
+        },
+        "tvPlayback": {
+          "name": "CCTV-14",
+          "url": "http://153.0.171.163:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "checks": [
+            {
+              "checkedAt": "2026-10-31T04:33:13.537Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:33:21.644Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:33:29.760Z",
+              "active": true
+            }
+          ],
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:32:57.057 18292 18292 I MainActivity: CCTV-14 playing",
+            "10-31 12:32:57.057 18292 18292 I MainActivity: CCTV-14 尝试播放",
+            "10-31 12:32:57.061 18292 18292 I PlayerFragment: CCTV-14 播放停止",
+            "10-31 12:32:57.874 18292 18292 I MainActivity: CCTV-14 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-15",
-        "url": "http://120.76.248.139/live/bfgd/4200000133.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn",
+        "url": "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8",
+        "finalHost": "183.250.156.180:9999",
         "hasAudio": true,
-        "review": "已看台标CCTV15音乐和民歌中国节目；HTTP200、媒体分片206，5秒音视频解码成功，抽帧未见外插广告。"
+        "review": "人工确认CCTV15音乐台标及《我的爱对你说》节目；1920x1080 H264和48kHz MP2立体声；5秒解码code0，耗时2.2秒。电视网络只读HTTP清单与TS前缀通过。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 3222,
+          "playlistElapsedMs": 189,
+          "segmentElapsedMs": 3033,
+          "tsSync": true,
+          "tsPacketSize": 188,
+          "verifiedPackets": 200,
+          "checkedAt": "2026-10-31T12:21:18+08:00"
+        },
+        "tvPlayback": {
+          "name": "CCTV-15",
+          "url": "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8",
+          "checks": [
+            {
+              "checkedAt": "2026-10-31T04:28:15.660Z",
+              "active": false
+            },
+            {
+              "checkedAt": "2026-10-31T04:28:25.771Z",
+              "active": false
+            },
+            {
+              "checkedAt": "2026-10-31T04:28:35.865Z",
+              "active": true
+            }
+          ],
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:28:01.186 18292 18292 I MainActivity: CCTV-15 playing",
+            "10-31 12:28:01.186 18292 18292 I MainActivity: CCTV-15 尝试播放",
+            "10-31 12:28:15.827 18292 18292 I MainActivity: CCTV-15 playing",
+            "10-31 12:28:15.856 18292 18292 I PlayerFragment: CCTV-15 播放停止",
+            "10-31 12:28:27.306 18292 18292 I MainActivity: CCTV-15 playing"
+          ]
+        }
       },
       {
         "name": "CCTV-17",
-        "url": "http://120.76.248.139/live/bfgd/4200000204.m3u8",
-        "finalHost": "httplive.slave.bfgd.com.cn",
+        "url": "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8",
+        "finalHost": "183.250.156.180:9999",
         "hasAudio": true,
-        "review": "已看台标CCTV17农业农村和我和我的三个姐姐电视剧；HTTP200、媒体分片206，5秒音视频解码成功，抽帧未见外插广告。"
+        "review": "实际台标CCTV17农业农村，中国三农报道用餐采访画面；5秒解码exit0，H264 1080p50+MP2 48kHz立体声。电视256KB分片345ms。 后续已在电视实际选到本频道并观察到活动音轨，见 tvPlayback。",
+        "tvProbe": {
+          "playlistStatus": 200,
+          "segmentStatus": 206,
+          "bytes": 262144,
+          "elapsedMs": 345,
+          "tsSync": true,
+          "playlistElapsedMs": 173
+        },
+        "tvPlayback": {
+          "name": "CCTV-17",
+          "url": "http://183.250.156.180:9999/newlive/live/hls/17/live.m3u8",
+          "checks": [
+            {
+              "checkedAt": "2026-10-31T04:28:48.014Z",
+              "active": true
+            },
+            {
+              "checkedAt": "2026-10-31T04:28:58.140Z",
+              "active": true
+            }
+          ],
+          "audioStarted": true,
+          "recentChannelLogs": [
+            "10-31 12:28:33.576 18292 18292 I MainActivity: CCTV-17 playing",
+            "10-31 12:28:33.576 18292 18292 I MainActivity: CCTV-17 尝试播放",
+            "10-31 12:28:37.298 18292 18292 I MainActivity: CCTV-17 playing",
+            "10-31 12:28:37.318 18292 18292 I PlayerFragment: CCTV-17 播放停止",
+            "10-31 12:28:38.574 18292 18292 I MainActivity: CCTV-17 playing",
+            "10-31 12:28:45.088 18292 18292 I PlayerFragment: CCTV-17 播放停止",
+            "10-31 12:28:53.567 18292 18292 I MainActivity: CCTV-17 playing"
+          ]
+        }
       }
     ]
   }
