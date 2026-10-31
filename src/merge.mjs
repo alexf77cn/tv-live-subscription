@@ -44,8 +44,9 @@ export function isPublicHost(host) {
 export function allowedUrl(value, config, { stable = false } = {}) {
   try {
     const url = new URL(value);
+    const unlabeledUrl = new URL(value.replace(/\$IPV[46]•线路\d+$/u, '')).href;
     if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password || !isPublicHost(url.hostname)) return false;
-    if (config.blockedUrls?.includes(url.href) || config.blockedUrls?.includes(value)) return false;
+    if (config.blockedUrls?.includes(url.href) || config.blockedUrls?.includes(value) || config.blockedUrls?.includes(unlabeledUrl)) return false;
     if (config.blockedHosts?.some(host => url.hostname === host || url.hostname.endsWith(`.${host}`))) return false;
     if (placeholderPath.test(url.pathname)) return false;
     if (stable && [...url.searchParams.keys()].some(key => transientKeys.test(key))) return false;

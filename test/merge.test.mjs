@@ -25,6 +25,14 @@ test('HTML and empty M3U are rejected instead of replacing the channel table', (
   assert.throws(() => mediaPlaylist('#EXTM3U\n', 'https://x.example/live.m3u8'));
 });
 
+test('known bad streams stay blocked when upstream appends an IPTV line label', () => {
+  const bad = 'https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8';
+  assert.equal(allowedUrl(bad + '$IPV4•线路2', config), false);
+  assert.equal(allowedUrl(bad + '$IPV6•线路17', config), false);
+  assert.equal(allowedUrl('https://fresh.example/live.m3u8$IPV4•线路2', config), true);
+  assert.equal(allowedUrl('http://bad.example:9901/live/cctv2.m3u8', config), false);
+});
+
 test('CCTV-5 and 5+ aliases stay distinct; unknown program suffixes do not become channels', () => {
   assert.equal(canonicalName('CCTV5体育 HD'), 'CCTV-5');
   assert.equal(canonicalName('CCTV-5+ 体育赛事 FHD'), 'CCTV-5+');

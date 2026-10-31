@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '23 22 * * *' # 06:23 Asia/Shanghai the following day
   workflow_dispatch:
+    inputs:
+      refresh_sources:
+        description: 'Refresh upstream sources; disable only to publish a reviewed snapshot'
+        required: true
+        default: true
+        type: boolean
   push:
     branches: [main]
     paths:
@@ -39,7 +45,11 @@ jobs:
       - name: Test merge and failure protections
         run: node --test
       - name: Fetch, probe, merge and validate
+        if: github.event_name != 'workflow_dispatch' || inputs.refresh_sources
         run: node src/update.mjs
+      - name: Validate the snapshot before publishing
+        run: >-
+          node --input-type=module -e "import fs from 'node:fs'; import { validateOutput } from './src/merge.mjs'; const read = p => JSON.parse(fs.readFileSync(p, 'utf8')); validateOutput(read('docs/channels.json'), read('config/seed-channels.json'), read('config/sources.json')); console.log('Channel identities, protected regions, fallbacks and URL restrictions passed');"
       - name: Preserve generated snapshot and daily report
         run: |
           git config user.name 'AlexF'

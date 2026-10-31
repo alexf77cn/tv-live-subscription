@@ -4,7 +4,7 @@
     "name": "CCTV-1",
     "title": "CCTV-1",
     "uris": [
-      "http://74.91.26.218:82/live/cctv1hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000488.m3u8"
     ]
   },
   {
@@ -12,7 +12,7 @@
     "name": "CCTV-2",
     "title": "CCTV-2",
     "uris": [
-      "http://74.91.26.218:82/live/cctv2hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000061.m3u8"
     ]
   },
   {
@@ -20,10 +20,8 @@
     "name": "CCTV-3",
     "title": "CCTV-3",
     "uris": [
-      "http://74.91.26.218:82/live/cctv3hd.m3u8",
-      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2",
-      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路5"
+      "http://120.76.248.139/live/bfgd/4200000062.m3u8",
+      "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8"
     ]
   },
   {
@@ -31,7 +29,8 @@
     "name": "CCTV-4",
     "title": "CCTV-4",
     "uris": [
-      "http://74.91.26.218:82/live/cctv4hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000063.m3u8",
+      "http://183.250.156.180:9999/newlive/live/hls/4/live.m3u8"
     ]
   },
   {
@@ -69,7 +68,7 @@
     "name": "CCTV-7",
     "title": "CCTV-7",
     "uris": [
-      "http://74.91.26.218:82/live/cctv7hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000127.m3u8"
     ]
   },
   {
@@ -77,10 +76,7 @@
     "name": "CCTV-8",
     "title": "CCTV-8",
     "uris": [
-      "http://74.91.26.218:82/live/cctv8hd.m3u8",
-      "http://gmxw.7766.org:808/hls/96/index.m3u8",
-      "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路3",
-      "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "http://120.76.248.139/live/bfgd/4200000066.m3u8"
     ]
   },
   {
@@ -98,8 +94,7 @@
     "name": "CCTV-10",
     "title": "CCTV-10",
     "uris": [
-      "http://74.91.26.218:82/live/cctv10hd.m3u8",
-      "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000129.m3u8"
     ]
   },
   {
@@ -107,7 +102,7 @@
     "name": "CCTV-11",
     "title": "CCTV-11",
     "uris": [
-      "http://74.91.26.218:82/live/cctv11hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000130.m3u8"
     ]
   },
   {
@@ -115,8 +110,8 @@
     "name": "CCTV-12",
     "title": "CCTV-12",
     "uris": [
-      "http://74.91.26.218:82/live/cctv12hd.m3u8",
-      "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "http://120.76.248.139/live/bfgd/4200000131.m3u8",
+      "http://113.15.109.216:59901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -124,9 +119,7 @@
     "name": "CCTV-13",
     "title": "CCTV-13",
     "uris": [
-      "http://74.91.26.218:82/live/cctv13hd.m3u8",
-      "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
-      "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$IPV4•线路2"
+      "http://120.76.248.139/live/bfgd/4200000067.m3u8"
     ]
   },
   {
@@ -134,7 +127,7 @@
     "name": "CCTV-14",
     "title": "CCTV-14",
     "uris": [
-      "http://74.91.26.218:82/live/cctv14hd.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000132.m3u8"
     ]
   },
   {
@@ -142,8 +135,7 @@
     "name": "CCTV-15",
     "title": "CCTV-15",
     "uris": [
-      "http://74.91.26.218:82/live/cctv15hd.m3u8",
-      "http://gmxw.7766.org:808/hls/102/index.m3u8"
+      "http://120.76.248.139/live/bfgd/4200000133.m3u8"
     ]
   },
   {
@@ -151,8 +143,7 @@
     "name": "CCTV-17",
     "title": "CCTV-17",
     "uris": [
-      "http://74.91.26.218:82/live/cctv17hd.m3u8",
-      "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd$IPV4•线路5"
+      "http://120.76.248.139/live/bfgd/4200000204.m3u8"
     ]
   },
   {

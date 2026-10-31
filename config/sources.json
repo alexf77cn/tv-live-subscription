@@ -1,21 +1,47 @@
 {
   "sources": [
-    { "name": "vbskycn-ipv4", "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u" },
-    { "name": "zilong7728-best", "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u" },
-    { "name": "alantang1977-ipv4", "url": "https://raw.githubusercontent.com/alantang1977/iptv_api/main/output/live_ipv4.m3u" }
+    {
+      "name": "vbskycn-ipv4",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u"
+    },
+    {
+      "name": "zilong7728-best",
+      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u"
+    },
+    {
+      "name": "alantang1977-ipv4",
+      "url": "https://raw.githubusercontent.com/alantang1977/iptv_api/main/output/live_ipv4.m3u"
+    }
   ],
   "timeoutMs": 6000,
   "concurrency": 8,
   "maxProbesPerChannel": 6,
   "newUrisPerChannel": 2,
   "maxUrisPerChannel": 6,
-  "requiredChannels": ["CCTV-1", "CCTV-5", "CCTV-5+", "CCTV-13"],
-  "blockedHosts": ["122.152.202.33", "37.27.111.214", "epg.pw", "3y1.xyz", "cnlive.club"],
+  "requiredChannels": [
+    "CCTV-1",
+    "CCTV-5",
+    "CCTV-5+",
+    "CCTV-13"
+  ],
+  "blockedHosts": [
+    "122.152.202.33",
+    "37.27.111.214",
+    "epg.pw",
+    "3y1.xyz",
+    "cnlive.club",
+    "74.91.26.218",
+    "63.141.239.226"
+  ],
   "blockedUrls": [
     "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
     "http://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
     "http://211.72.174.95:8138/0.ts",
     "http://125.227.210.55:3083/VideoInput/play.ts",
-    "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p"
+    "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p",
+    "http://120.76.248.139/live/bfgd/4200000484.m3u8",
+    "http://120.76.248.139/live/bfgd/4200000489.m3u8",
+    "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+    "https://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8"
   ]
 }
