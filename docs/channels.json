@@ -20,7 +20,8 @@
     "name": "CCTV-3",
     "title": "CCTV-3",
     "uris": [
-      "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8"
+      "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8",
+      "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0"
     ]
   },
   {
@@ -85,6 +86,7 @@
     "title": "CCTV-9",
     "uris": [
       "https://xykt-fix.github.io/Y77.m3u8",
+      "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=aadb8c18051ee59eba868c6c6fda57a6",
       "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6eba369ff120b2ed6e1365d347cff21a",
       "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=3a00fc0d3fc15e9259b00428ba25249c",
       "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da11d4e7bde71b3ff91281d1f351b6dc"
@@ -205,6 +207,7 @@
     "name": "广西卫视",
     "title": "广西卫视",
     "uris": [
+      "https://piccpndks.v.kcdnvip.com/audio/guangxi_2/index.m3u8",
       "http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
       "http://120.198.95.220:9901/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&down=1"
     ]
@@ -392,11 +395,11 @@
     "title": "浙江卫视",
     "uris": [
       "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
-      "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+      "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
       "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
       "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
       "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1",
-      "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+      "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8"
     ]
   },
   {
