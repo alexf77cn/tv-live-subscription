@@ -22,10 +22,10 @@
     "title": "CCTV-3",
     "uris": [
       "http://120.40.39.246:352/newlive/live/hls/3/live.m3u8",
-      "http://t.061899.xyz/tl/tl.php?id=cctv3$IPV4•线路3",
-      "http://t.061899.xyz/tl/tl.php?id=cctv3",
       "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路4",
+      "http://t.061899.xyz/tl/tl.php?id=cctv3$IPV4•线路3",
+      "http://t.061899.xyz/tl/tl.php?id=cctv3",
       "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0$IPV4•线路2"
     ]
   },
@@ -54,9 +54,9 @@
     "title": "CCTV-5+",
     "uris": [
       "http://107.150.60.122/live//cctv5p.m3u8",
-      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://120.76.248.139/live/bfgd/4200000246.m3u8",
       "http://47.100.80.251:50001/641886773",
+      "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://t.061899.xyz/tl/tl.php?id=cctv5p"
     ]
   },
@@ -99,11 +99,11 @@
     "title": "CCTV-9",
     "uris": [
       "https://xykt-fix.github.io/Y77.m3u8",
+      "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=73de940c935d251d2d97c3aed0bee8d9",
       "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d57d527cf8a8d3d1ca12dd9fa9e3f0fd",
       "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7732031c722a5d43203c4f62e3d97c51",
       "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e2fa3ce2f06ab50f9be495d5d3bf05e9",
-      "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1e04d806e0db87e87ed05b313e1b3694",
-      "http://t.061899.xyz/tl/tl.php?id=cctv9"
+      "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1e04d806e0db87e87ed05b313e1b3694"
     ]
   },
   {
@@ -157,6 +157,7 @@
     "uris": [
       "http://183.250.156.180:9999/newlive/live/hls/15/live.m3u8",
       "http://gmxw.7766.org:808/hls/102/index.m3u8",
+      "https://piccpndks.v.kcdnvip.com/audio/cctv15_2/index.m3u8",
       "http://t.061899.xyz/tl/tl.php?id=cctv15"
     ]
   },
@@ -176,8 +177,8 @@
     "title": "安徽卫视",
     "uris": [
       "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
-      "http://gmxw.7766.org:808/hls/40/index.m3u8",
-      "http://125.43.249.76:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "http://125.43.249.76:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "http://gmxw.7766.org:808/hls/40/index.m3u8"
     ]
   },
   {
@@ -281,6 +282,7 @@
     "name": "吉林卫视",
     "title": "吉林卫视",
     "uris": [
+      "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
       "http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
       "http://101.66.198.18:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0"
@@ -374,10 +376,10 @@
     "title": "天津卫视",
     "uris": [
       "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
-      "https://piccpndks.v.kcdnvip.com/audio/tianjin_2/index.m3u8",
+      "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
       "http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "http://mg.hmysapp.cn:177/偷源狗/卫视/天津卫视.php?id=301$IPV4•线路6",
-      "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
+      "https://piccpndks.v.kcdnvip.com/audio/tianjin_2/index.m3u8",
+      "http://mg.hmysapp.cn:177/偷源狗/卫视/天津卫视.php?id=301$IPV4•线路6"
     ]
   },
   {
@@ -405,8 +407,8 @@
     "title": "延边卫视",
     "uris": [
       "https://srs.iyb983.cn/video/CYS/index.m3u8",
-      "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
       "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#",
+      "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
       "http://120.76.248.139/live/bfgd/4200000117.m3u8",
       "http://120.76.248.139/live/bfgd/4200000117.m3u8$IPV4•线路2",
       "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$IPV4•线路4"
@@ -428,11 +430,11 @@
     "title": "浙江卫视",
     "uris": [
       "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
-      "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+      "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
       "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$IPV4•线路3",
       "http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8",
       "http://120.198.95.220:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&down=1",
-      "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8"
+      "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
     ]
   },
   {
